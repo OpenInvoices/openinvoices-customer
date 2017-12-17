@@ -25,6 +25,14 @@ return [
             ],
         ],
     ],
+    'navigation' => [
+        'default' => [
+            [
+                'label' => 'Customers',
+                'route' => 'customer',
+            ]
+        ]
+    ],
     'controllers' => [
         'factories' => [
             Controller\IndexController::class => InvokableFactory::class,
